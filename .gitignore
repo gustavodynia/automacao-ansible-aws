@@ -1,0 +1,20 @@
+# Removendo arquivos com IPs e senhas reais de subir para o GitHub
+**/hosts.ini
+
+# Ignora chaves privadas da AWS
+*.pem
+
+# --- Python ---
+# Ignora pastas de ambiente virtual e arquivos de cache do Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# --- Sistema Operacional ---
+# Ignora arquivos temporários que o Windows ou Mac criam nas pastas
+.DS_Store
+Thumbs.db
+
+# --- Configurações de Editor ---
+.vscode/

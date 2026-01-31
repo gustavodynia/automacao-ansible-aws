@@ -1,0 +1,12 @@
+[windows]
+win1 ansible_host=0.0.0.0
+win2 ansible_host=0.0.0.0
+win3 ansible_host=0.0.0.0
+
+[windows:vars]
+ansible_user=automator
+ansible_password=example_password
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+ansible_winrm_transport=basic
